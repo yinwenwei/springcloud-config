@@ -15,19 +15,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
-      
-      
----      
-server:
-  port: 8202     
-#spring配置
-spring:
-  profiles: test
-  application:
-    name: springcloudDept 
-
-#注册服务到eureka中
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/    
